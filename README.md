@@ -36,13 +36,11 @@ Les données DVF recensent l'ensemble des transactions immobilières en France (
 
 > *Les métriques seront complétées au fil de l'avancement du projet.*
 
-| Modèle | R² | RMSE (€) | MAE (€) |
-|---|---|---|---|
-| Linear Regression | — | — | — |
-| Random Forest | — | — | — |
-| XGBoost | — | — | — |
-| Réseau de neurones | — | — | — |
-
+Modèle  MAE (€/m²)  RMSE (€/m²)  MAPE (%)  R² (log)  R² (€/m²)
+           XGBoost      573.57       802.08     23.37    0.6766     0.6939
+     Random Forest      597.93       835.26     23.76    0.6606     0.6680
+Réseau de neurones      659.96       881.29     29.14    0.5882     0.6304
+             Ridge      699.31       951.78     30.87    0.5550     0.5690
 ---
 
 ## 📁 Structure du projet
